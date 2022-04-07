@@ -93,7 +93,7 @@ extension GoalsVC {
         do {
             let updatedGoals = try manageContext.fetch(fetchRequest)
             
-            if (!tableView.isHidden && !goals.isEmpty) { //preven undo button to appear on launch
+            if (!tableView.isHidden && !goals.isEmpty) { //prevent undo button to appear on launch
                 lastGoalsSize = goals.count
                 goalsDifference = Array(Set(goals).symmetricDifference(Set(updatedGoals))).first
             }

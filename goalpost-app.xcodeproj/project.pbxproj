@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		BC152B4027FF3D7000CE6175 /* coreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC152B3F27FF3D7000CE6175 /* coreDataManager.swift */; };
 		BC38498A27FC90D700B7FE3E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC38498927FC90D700B7FE3E /* AppDelegate.swift */; };
 		BC38498C27FC90D700B7FE3E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC38498B27FC90D700B7FE3E /* SceneDelegate.swift */; };
 		BC38498E27FC90D700B7FE3E /* GoalsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC38498D27FC90D700B7FE3E /* GoalsVC.swift */; };
@@ -25,7 +24,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		BC152B3F27FF3D7000CE6175 /* coreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = coreDataManager.swift; sourceTree = "<group>"; };
 		BC38498627FC90D700B7FE3E /* goalpost-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "goalpost-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC38498927FC90D700B7FE3E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BC38498B27FC90D700B7FE3E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -85,7 +83,6 @@
 				BC38499727FC90D900B7FE3E /* LaunchScreen.storyboard */,
 				BC38499A27FC90D900B7FE3E /* Info.plist */,
 				BC38499227FC90D700B7FE3E /* goalpost_app.xcdatamodeld */,
-				BC152B3F27FF3D7000CE6175 /* coreDataManager.swift */,
 			);
 			path = "goalpost-app";
 			sourceTree = "<group>";
@@ -203,7 +200,6 @@
 				BC38498A27FC90D700B7FE3E /* AppDelegate.swift in Sources */,
 				BC5C79BC27FDEA2300B54999 /* UIViewControllerExt.swift in Sources */,
 				BC5C79C227FDF9B500B54999 /* FinishGoalVC.swift in Sources */,
-				BC152B4027FF3D7000CE6175 /* coreDataManager.swift in Sources */,
 				BC3849A827FCDF9000B7FE3E /* GoalType.swift in Sources */,
 				BC38499427FC90D700B7FE3E /* goalpost_app.xcdatamodeld in Sources */,
 				BC3849AA27FCE5D700B7FE3E /* CreateGoalVC.swift in Sources */,
